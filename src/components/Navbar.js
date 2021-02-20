@@ -14,13 +14,13 @@ function Navbar() {
 		  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul className="navbar-nav m-auto">
 		      <li className="nav-item active">
-		        <a className="nav-link text-white text-uppercase ml-5" href="#"><i className="fas fa-home"></i>Home&nbsp; <span className="sr-only">(current)</span></a>
+		        <a className="nav-link text-white text-uppercase ml-5" href="#"><i className="fas fa-home"></i>beranda&nbsp; <span className="sr-only">(current)</span></a>
 		      </li>
 		      <li className="nav-item">
 		        <a className="nav-link text-white text-uppercase ml-5" href="#">news</a>
 		      </li>
 		      <li className="nav-item">
-		        <a className="nav-link text-white text-uppercase ml-5" href="#">contaact us</a>
+		        <a className="nav-link text-white text-uppercase ml-5" href="#">kontak kami</a>
 		      </li>
 		    </ul>
 		    <form className="form-inline my-2 my-lg-0">
