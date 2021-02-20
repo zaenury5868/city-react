@@ -1,17 +1,27 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
+import {Switch, Route} from 'react-router-dom';
+import Home from './components/pages/Home';
+import News from './components/pages/News';
+import Kontak from './components/pages/Kontak';
+import Details from './components/pages/Details';
+import Kosong from './components/pages/Kosong';
 
 class App extends Component{
   render() {
     return (
       <div>
         <Navbar />
-        <br/>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <br/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/news" component={News}/>
+            <Route path="/kontak" component={Kontak}/>
+            <Route path="/details" component={Details}/>
+            <Route component={Kosong}/>
+          </Switch>
         <Footer />
       </div>
     );
