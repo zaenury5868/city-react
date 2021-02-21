@@ -4,7 +4,6 @@ import {InfoPelanggan} from './konteks'
 class Ulasan extends Component {
     render() {
         const {
-            id,
             name,
             avatar,
             comment

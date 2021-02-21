@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {InfoPelanggan, InfoProvider} from '../konteks';
+import {InfoPelanggan} from '../konteks';
 import styled from 'styled-components';
 import Ulasans from '../Ulasans';
 class Details extends Component{
@@ -8,7 +8,6 @@ class Details extends Component{
 			<InfoPelanggan>
 				{data => {
 					const {
-						id,
 						headerTitle,
 						headerSubTitle,
 						headerText,
