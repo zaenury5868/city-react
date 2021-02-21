@@ -1,13 +1,49 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 class Kosong extends Component{
 	render(){
 		return (
-			<div>
-				<h2>Halaman kosong</h2>
-			</div>
+			<ComponentNotFound className="container">
+				<div className="row">
+					<div className="col-md-12">
+						<div className="error-template">
+							<h1>Ops!</h1>
+							<h2>Error 404 Tidak Ditemukan</h2>
+							<div className="error-details">
+								Maaf, terjadi kesalahan. Halaman yang diminta tidak ditemukan
+							</div>
+							<div className="error-actions">
+								<Link to="/" className="btn-btn-outline-primary btn-lg">
+									<i className="fas fa-home"/>&nbsp;Kembali ke beranda
+								</Link>
+								<Link to="/kontak"className="btn-btn-outline-secondary btn-lg">
+									<i className="fas fa-envelope"/>&nbsp;Support
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</ComponentNotFound>
 		);
 	}
 }
 
 export default Kosong;
+
+const ComponentNotFound = styled.div`
+	.error-template {
+		padding: 40px 15px;
+		text-align: center;
+	}
+
+	.error-actions {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.btn {
+		margin-right:10px;
+	}
+
+`;

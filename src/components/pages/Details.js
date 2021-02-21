@@ -21,7 +21,7 @@ class Details extends Component{
 					return (
 						<React.Fragment>
 							<HeaderDetails className="container-fluid align-items-center">
-								<h1 className="display-1 font-weight-bold">city travel</h1>
+								<h1 className="display-1 font-weight-bold">{headerTitle}</h1>
 								<h4 className="display-5">{headerSubTitle}</h4>
 								<p>{headerText}</p>
 								<div className="container mt-5">

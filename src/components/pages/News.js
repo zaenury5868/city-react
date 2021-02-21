@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
+import Terbaru from '../Terbaru';
+import {InfoPelanggan} from '../konteks';
 
 class News extends Component{
 	render(){
 		return (
-			<div>
-				<h2>Halaman news</h2>
-			</div>
+			<InfoPelanggan>
+				{data => {
+					return data.news.map(item => {
+						return <Terbaru key={item.id} item={item}/>;
+					});
+				}}
+			</InfoPelanggan>
 		);
 	}
 }
