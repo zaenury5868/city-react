@@ -12,7 +12,7 @@ class Kontak extends Component{
 				
 					<div class="row">
 						<div className="col-md-7">
-							<iframe src="https://www.google.com/maps/d/embed?mid=1kZiBvuG--7C75VuUq0yz5uHWcpGYTmFt" style={{
+							<iframe title ="map" src="https://www.google.com/maps/d/embed?mid=1kZiBvuG--7C75VuUq0yz5uHWcpGYTmFt" style={{
 								border: '0',
 								width: '100%',
 								height: '315px',

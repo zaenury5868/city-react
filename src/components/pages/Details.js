@@ -68,7 +68,7 @@ class Details extends Component{
 											<Ulasans/>
 										</div>
 										<div className="tab-pane" id="map" role="tabpanel">
-											<iframe src={maps} style={{border: '0', height: '28.125rem', width: '100%', frameborder: '0'}}></iframe>
+											<iframe title="map" src={maps} style={{border: '0', height: '28.125rem', width: '100%', frameborder: '0'}}></iframe>
 										</div>
 								</div>
 							</div>
