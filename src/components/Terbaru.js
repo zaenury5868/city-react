@@ -18,7 +18,7 @@ class Terbaru extends Component {
                                 {newsTitle}
                             </h5>
                             <p className="card-text">{newsText}</p>
-                            <Link className="card-link">Selengkapnya</Link>
+                            <Link to="/#" className="card-link">Selengkapnya</Link>
                         </div>
                     </div>
                 )}

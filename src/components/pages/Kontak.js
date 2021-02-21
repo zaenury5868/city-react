@@ -32,7 +32,7 @@ class Kontak extends Component{
 									<input type="tel" className="form-control" placeholder="No Telepon"/>
 								</div>
 								<textarea className="form-control" cols="30" rows="3" placeholder="Pesan" />
-								<Link className="btn btn-outline-primary text-uppercase mt-1">
+								<Link to="/#" className="btn btn-outline-primary text-uppercase mt-1">
 									<i className="fa fa-paper-plane-o" aria-hidden="true"/>
 									<i className="fab fa-telegram-plane" />&nbsp;Kirim
 								</Link>
