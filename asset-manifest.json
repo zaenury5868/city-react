@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github.io/city-react/static/css/main.201516c5.chunk.css",
+    "main.js": "/github.io/city-react/static/js/main.cc5e85c5.chunk.js",
+    "main.js.map": "/github.io/city-react/static/js/main.cc5e85c5.chunk.js.map",
+    "runtime-main.js": "/github.io/city-react/static/js/runtime-main.6270e55a.js",
+    "runtime-main.js.map": "/github.io/city-react/static/js/runtime-main.6270e55a.js.map",
+    "static/css/2.150d169a.chunk.css": "/github.io/city-react/static/css/2.150d169a.chunk.css",
+    "static/js/2.d6ecf0e1.chunk.js": "/github.io/city-react/static/js/2.d6ecf0e1.chunk.js",
+    "static/js/2.d6ecf0e1.chunk.js.map": "/github.io/city-react/static/js/2.d6ecf0e1.chunk.js.map",
+    "static/js/3.4e68d7cf.chunk.js": "/github.io/city-react/static/js/3.4e68d7cf.chunk.js",
+    "static/js/3.4e68d7cf.chunk.js.map": "/github.io/city-react/static/js/3.4e68d7cf.chunk.js.map",
+    "index.html": "/github.io/city-react/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/github.io/city-react/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.201516c5.chunk.css.map": "/github.io/city-react/static/css/main.201516c5.chunk.css.map",
+    "static/js/2.d6ecf0e1.chunk.js.LICENSE.txt": "/github.io/city-react/static/js/2.d6ecf0e1.chunk.js.LICENSE.txt",
+    "static/media/logo.e0f4db7e.svg": "/github.io/city-react/static/media/logo.e0f4db7e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6270e55a.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.d6ecf0e1.chunk.js",
+    "static/css/main.201516c5.chunk.css",
+    "static/js/main.cc5e85c5.chunk.js"
+  ]
+}
