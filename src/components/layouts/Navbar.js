@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-light" style={{background: 'var(--mainBlue)'}}>
 		  <Link className="navbar-brand ml-5" href="#">
 		  	<img src={logo} alt="logo" style={{ width:'35px'}}/>
 		  </Link>
@@ -20,7 +20,7 @@ function Navbar() {
 		        <Link className="nav-link text-white text-uppercase ml-5" to="/"><i className="fas fa-home"></i>beranda&nbsp; <span className="sr-only">(current)</span></Link>
 		      </li>
 		      <li className="nav-item">
-		        <Link className="nav-link text-white text-uppercase ml-5" to="/news">news</Link>
+		        <Link className="nav-link text-white text-uppercase ml-5" to="/news">terbaru</Link>
 		      </li>
 		      <li className="nav-item">
 		        <Link className="nav-link text-white text-uppercase ml-5" to="/kontak">kontak kami</Link>

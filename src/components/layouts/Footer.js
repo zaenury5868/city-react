@@ -9,12 +9,12 @@ function Footer() {
 					<div className="row">
 						{/* kolom 1*/}
 						<div className="col-md-3 col-sm-6">
-							<h4>Lorem ipsum</h4>
+							<h4>City Travel</h4>
 							<ul className="list-unstyled">
 								<li>Lorem ipsum</li>
 								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
+								<li>Zaenury Dhany Wibowo</li>
+								<li>+62 214 515 603</li>
 							</ul>
 						</div>
 						{/* kolom 2*/}
@@ -51,7 +51,7 @@ function Footer() {
 					{/* footer bawah 1*/}
 					<div className="footer-bottom">
 						<p className="text-xs-center">
-							&copy;{new Date().getFullYear()} Panduan Kota - All right reserved
+							&copy;{new Date().getFullYear()} City Guide
 						</p>
 					</div>
 				</div>
@@ -63,7 +63,7 @@ function Footer() {
 export default Footer;
 const FooterContainer = styled.footer`
 	.footer-middle {
-		background: var(--mainDark);
+		background: var(--mainBlue);
 		padding-top: 3rem;
 		color: var(--mainWhite);
 	}
@@ -72,9 +72,10 @@ const FooterContainer = styled.footer`
 		padding-bottom: 2rem;
 	}
 	ul li a {
-		color: var(--mainGrey);
+		color: var(--mainLight);
 	}
 	ul li a:hover {
-		color: var(--mainLight);
+		color: var(--mainGrey);
+		transition: 0.5s all ease;
 	}
 `;
